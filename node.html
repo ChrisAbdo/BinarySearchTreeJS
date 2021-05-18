@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="nodestyle.css">
+    
+<body>
+    <div class="center">
+            <h1>This represents an array of integers 1-100.<br>
+                Enter a number 1-100 to show how a<br> Binary Search Tree works.</br><br></h1>
+            <h2>This Binary Search Tree was built using Javascript. For more information on how a Binary Search Tree (BST) works visit <a href="https://www.tutorialspoint.com/data_structures_algorithms/binary_search_tree.htm"> TutorialsPoint!</a></h2>
+            
+            
+        <form>
+         <input type="text" id="target"></input><br><br>
+        <button type="button" onclick="binarySearchCall()">Calculate</button>
+        <button type="button" onclick="Clear()">Clear</button><br>
+        <div id='answer'><br>Input:</div>
+    </form>
+    </div>
+
+<br></br>
+
+<div id="grid">
+</div>
+
+<div class ="center">
+<div class="legend">
+    <div class="node" style="background-color: #3700ff;"> < </div><br>Target is less than the tested node.
+    <br><br><div class="node" style="background-color: #ff0000;">></div> <br>Target is greater than the tested node.
+    <br><br><div class="node" style="background-color: #33b638;">#</div> <br>Answer (Highlighted Bright Green)
+    <br><br><br>KEY</div></div>
+
+<footer>
+    <p>Made by: Christopher Abdo</p>
+    <p><a href="mailto:hege@example.com">chris.j.abdo@gmail.com</a></p>
+</footer>
+
+</body>
+<script src="binarysearchtree.js"></script>
+</html>
